@@ -5,7 +5,6 @@ import tkinter as tk
 from tkinter import messagebox, Scrollbar, Text
 import wikipedia
 
-
 def get_data():
     entry_value = entry.get().strip()
     answer.delete(1.0, tk.END)
